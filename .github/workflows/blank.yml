@@ -21,7 +21,7 @@ jobs:
     runs-on: self-hosted
     strategy:
       matrix:
-        release:[R2024b]
+        release:[R2024b,R2022b]
 
     steps:
       - name: Checkout repository
