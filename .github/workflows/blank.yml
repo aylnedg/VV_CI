@@ -24,8 +24,7 @@ jobs:
         release:[R2024b]
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      -name: Checkout repository
+      - name: Checkout repository
       - uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
