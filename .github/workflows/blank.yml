@@ -32,7 +32,7 @@ jobs:
         uses: matlab-actions/run-tests@v2
         with:
           release: ${{ matrix.release }}
-          test-results-pdf: test-results/pdf-results.pdf
+          test-results-junit: test-results/results.xml
 
       # Runs a set of commands using the runners shell
       - name: Upload comporison reports
